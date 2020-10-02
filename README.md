@@ -18,8 +18,6 @@ Le groupe était composé de [Maxime BAUDOIN](https://github.com/max33530), [Que
 
 <br/>
 
-<br/>
-
 ### EN :
 This is the repo. of the **Arcade Park** project of our 2020 workshop.
 
@@ -34,6 +32,11 @@ The group was composed of [Maxime BAUDOIN](https://github.com/max33530), [Quenti
 
 <br/>
 
+## To Do :
+
+- [ ] Ajouter une explication du jeu.
+- [ ] Ajouter un wiki explicatif.
+  
 <br/>
 
 [LICENSE](./LICENSE)
