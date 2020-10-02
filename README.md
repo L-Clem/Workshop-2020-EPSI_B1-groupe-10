@@ -1,6 +1,6 @@
 # Workshop-EPSI-1
 ## [Arcade Park](https://arcadepark.wordpress.com/home/).
-*(Link to our Wordpress presentation website, made by Jules SERRATO. The official game site is in the description on the right)*
+*(Link to our Wordpress presentation website, made by Jules SERRATO. The official game site is in the "about" section on the right)*
 
 ### FR : 
 Ceci est le repo. du projet **Arcade Park** de notre workshop de 2020.
