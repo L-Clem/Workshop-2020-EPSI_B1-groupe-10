@@ -1,6 +1,6 @@
 # Workshop-EPSI-1
-### FR :
-##### Arcade Park. 
+## Arcade Park.
+### FR : 
 Ceci est le repo. du projet **Arcade Park** de notre workshop de 2020.
 
 Le workshop à duré une semaine, avec comme thème/consigne : 
