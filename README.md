@@ -34,4 +34,6 @@ The group was composed of [Maxime BAUDOIN](https://github.com/max33530), [Quenti
 
 <br/>
 
+<br/>
+
 [LICENSE](./LICENSE)
