@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Antipasto";
+    src: url("../fonts/Antipasto-Pro-Regular-trial.ttf") format("truetype");
+}
+
+html {
+    background-color: #060f29;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    height: 165px;
+    padding: 25px 250px;
+    box-sizing: border-box;
+}
+
+.navbar .logo {
+    height: 100%;
+}
+
+.navbar .title {
+    float: right;
+    font-family: "Antipasto", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transform: translateY(170%);
+}
+
+.container {
+    width: 100%;
+    padding: 80px 350px;
+    box-sizing: border-box;
+}
+
+.container h2 {
+    font-family: "Antipasto", Arial, Helvetica, sans-serif;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile-1 + label {
+    color: #f1e5e6;
+    background-color: #d3394c;
+}
+
+svg {
+    color: #f1e5e6;
+}
+
+.inputfile + label, input[type=submit] {
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    font-family: "Arial";
+    vertical-align: middle;
+}
+
+.box {
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+}
+
+input[type=submit] {
+    margin-left: 50px;
+    border-radius:0px;
+    border:none
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.steps {
+    margin-top: 75px;
+    font-family: "Antipasto", Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+
+.steps div {
+    margin: 10px 0px;
+    vertical-align: middle;
+}
+
+.steps div img {
+    vertical-align: middle;
+    margin-right: 20px;
+}

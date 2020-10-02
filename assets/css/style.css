@@ -1,0 +1,375 @@
+@font-face {
+    font-family: "Arcade_n";
+    src: url("../fonts/ARCADE_N.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arcade_r";
+    src: url("../fonts/ARCADE_R.ttf") format("truetype");
+}
+
+html {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/background_violet.png");
+    /* background-color: #fff; */
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+td {
+    color: #fff;
+}
+
+.mascotte img {
+    width: 200px;
+}
+
+.mascotte {
+    left:20px;
+    top:20px;
+    position: absolute;
+}
+
+.mascotte:after {
+    content: "LE GRAPPIIIIIN";
+    font-family: "Arcade_r", Arial, Helvetica, sans-serif;
+    color:#fff;
+    position: relative;
+    opacity: 0;
+    left: -100px;
+    top:-60px;
+    transition: all .5s;
+}
+
+.mascotte:hover:after {
+    left: 0px;
+    opacity: 1;
+}
+
+.mascotte:hover {
+    right:0px;
+    transition: .25s all;
+}
+
+.logo-big {
+    margin: 100px auto;
+    display: block;
+
+    width: 400px;
+    height:307px;
+
+    animation: backgroundanim .75s infinite;
+    background-size: 100%;
+}
+
+.logo-small {
+    margin: 50px auto;
+    display: block;
+
+    width: 150px;
+    height:115px;
+
+    animation: backgroundanim .75s infinite;
+    background-size: 100%;
+}
+
+@keyframes backgroundanim {
+    0% {
+        background-image: url("../img/logo_violet.png"); 
+    }
+
+    50% {
+        background-image: url("../img/logo_violet_inverse.png");
+    }
+
+    100% {
+        background-image: url("../img/logo_violet.png"); 
+    }
+}
+
+.link-top-right {
+    position: absolute;
+    right:30px;
+    top:30px;
+    width: auto;
+    text-decoration: none;
+    font-family: "Arcade_n", Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.link-top-right img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.link-top-right span {
+    vertical-align: middle;
+}
+
+/* .link-top-right span:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.link-top-right span:before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    bottom: 0px;
+    left: 15px;
+    background-color: #FFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+} */
+
+.menu {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.gameover {
+    font-family: "Arcade_n", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 4rem;
+    margin: 60px auto 100px auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.gameover img {
+    vertical-align: middle;
+    margin-right: 50px;
+    width: 200px;
+}
+
+.classement {
+    color: #fff;
+
+    margin: 70px auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.classement table {
+    width: auto;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.classement td {
+    padding: 20px 0px;
+}
+
+.classement .id {
+    font-family: "Arcade_r", Arial, Helvetica, sans-serif;
+}
+
+.classement .pseudo {
+    font-family: "Arcade_r", Arial, Helvetica, sans-serif;
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.classement .score {
+    font-family: "Arcade_r", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.classement .score .gold {
+    background-color: rgba(255, 217, 0, 0.8);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.classement .score .argent {
+    background-color: rgb(134,137,146, 0.8);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.classement .score .bronze {
+    background-color: rgb(196,156,72, 0.8);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.classement tr {
+    padding: 20px 0px;
+}
+
+.btn-big {
+    font-family: "Arcade_n", Arial, Helvetica, sans-serif;
+    color: #fff;
+    width: auto;
+    display: block;
+    text-decoration: none;
+    margin: 30px auto;
+    font-size: 1.6rem;
+    transition: .25s all;
+    position: relative;
+    right:-35px;
+    cursor: pointer;
+}
+
+.btn-small {
+    font-family: "Arcade_n", Arial, Helvetica, sans-serif;
+    color: #fff;
+    width: auto;
+    display: block;
+    text-decoration: none;
+    margin: 40px auto;
+    font-size: 1rem;
+    transition: .25s all;
+    position: relative;
+    right:-20px;
+    cursor: pointer;
+}
+
+.btn:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+.btn:before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    bottom: 0;
+    left: 70px;
+    bottom:-7px;
+    background-color: #FFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:after {
+    content: "->";
+    position: relative;
+    opacity: 0;
+    left: -100px;
+    transition: all .25s;
+}
+
+.btn:hover:after {
+    left: 0px;
+    opacity: 1;
+}
+
+.btn:hover {
+    right:0px;
+    transition: .25s all;
+}
+
+.loading {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    transform: translateY(25%);
+    width: 700px;
+    height: auto;
+    text-align: center;
+}
+
+.loading .loading-logo {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.loading span {
+    width: 100%;
+    color: #fff;
+    font-size: .8rem;
+    margin-bottom: 0px;
+    display: block;
+    font-family: "Arcade_n", Arial, Helvetica, sans-serif;
+}
+
+.loading .loading-gif {
+    width: 70px;
+}
+
+form {
+    margin: 100px auto;
+    display: block;
+    width: 400px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    border-radius: 15px;
+    height: 50px;
+    outline: 0;
+    padding:15px;
+    box-sizing: border-box;
+    font-family: "Arcade_r", Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    border:none;
+}
+
+form label {
+    font-size: .9rem;
+    display: block;
+    font-family: "Arcade_r", Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 10px 0px;
+    line-height: 25px;
+}
+
+form button {
+    font-family: "Arcade_r", Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding:10px;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+    outline: none;
+    width:100%;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #000000;
+    transition: 0.25s;
+}
+
+form .error {
+    color: #fff;
+    font-size: .8rem;
+    font-family: "Arcade_n", Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+footer {
+    width: 100%;
+    margin-top:110px;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px;
+    font-size: .9rem;
+    font-family: "Arcade_r", Arial, Helvetica, sans-serif;
+}

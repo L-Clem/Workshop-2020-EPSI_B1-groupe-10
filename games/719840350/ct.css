@@ -1,0 +1,37 @@
+*{margin:0;padding:0;border:0}body{background:#000;font-family:sans-serif;position:relative;width:100%;height:100vh}#ct{position:relative;display:inline-block;width:100%;height:100%}.ct-aLoadingScreen{position:absolute;opacity:0;left:0;right:0;top:0;bottom:0;background:#446adb;color:#fff;z-index:2}.ct-aLoadingProgress{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:1.5rem;font-style:italic;padding:1rem 2rem}.ct-aLoadingBar{content:'';height:.2rem;border-radius:1rem;position:absolute;background:#446adb;background:#fff;left:0;bottom:0;transition:1s cubic-bezier(.31,.59,.29,1) width}.ct-aLoadingScreen.hidden{visibility:hidden;display:none}
+
+@font-face {
+    font-family: "Arcade_n";
+    src: url("../../assets/fonts/ARCADE_N.ttf") format("truetype");
+}
+
+.loading {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    transform: translateY(25%);
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+.loading .loading-logo {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.loading span {
+    width: 100%;
+    color: #fff;
+    font-size: .8rem;
+    margin-bottom: 0px;
+    display: block;
+    font-family: "Arcade_n", Arial, Helvetica, sans-serif;
+}
+
+.loading .loading-gif {
+    width: 70px;
+}
