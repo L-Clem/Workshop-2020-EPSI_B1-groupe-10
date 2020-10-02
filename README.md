@@ -32,5 +32,6 @@ Coded with the help of [CT.JS](https://github.com/ct-js/ct-js).
 
 The group was composed of [Maxime BAUDOIN](https://github.com/max33530), [Quentin LAUNEY](https://github.com/Elsword24), [Jules SERRATO](https://github.com/sjules027) and [Clément LAFON](https://github.com/Jpn287).
 
+<br/>
 
-[LICENSE](docs/LICENSE)
+[LICENSE](./LICENSE)
