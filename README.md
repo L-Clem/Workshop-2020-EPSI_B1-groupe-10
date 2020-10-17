@@ -1,9 +1,9 @@
-<img alt="is website active or down ?" align="center" src="https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=active&url=http%3A%2F%2Fwww.chatandgo.fr%2Fworkshop%2F"></a>
+<div><img alt="is website active or down ?" align="center" src="https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=active&url=http%3A%2F%2Fwww.chatandgo.fr%2Fworkshop%2F"></a>
 <img alt="size" align="center" src="https://img.shields.io/github/repo-size/Jpn287/Workshop-2020-EPSI_B1-groupe-10">
 <a href="https://github.com/ct-js/ct-js"><img alt="built with CT-JS" align="center" src="https://img.shields.io/badge/built%20with-CT--JS-yellowgreen"></a>
 <img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/Jpn287/Workshop-2020-EPSI_B1-groupe-10">
 <img alt="maintenance" align="center" src="https://img.shields.io/maintenance/no/2020?color=inactive">
-<a href="./LICENSE"><img alt="license AGPL-3.0" align="center" src="https://img.shields.io/badge/license-AGPL--3.0-blue"></a><a href="http://www.chatandgo.fr/workshop/">
+<a href="./LICENSE"><img alt="license AGPL-3.0" align="center" src="https://img.shields.io/badge/license-AGPL--3.0-blue"></a><a href="http://www.chatandgo.fr/workshop/"></div>
 
 
 # Workshop-EPSI-1  
