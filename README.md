@@ -29,8 +29,8 @@ The group was composed of [Maxime BAUDOIN](https://github.com/max33530), [Quenti
 
 ## To Do :
 
-- [ ] Ajouter une explication du jeu.
-- [ ] Ajouter un wiki explicatif.
+- [x] Ajouter une explication du jeu.
+- [x] Ajouter un wiki explicatif.
   
 <br/>
 
