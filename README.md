@@ -9,7 +9,7 @@
 # Workshop-EPSI-1  
 
 ## [Arcade Park](https://arcadepark.wordpress.com/home/) 
-*(The title is a link to our Wordpress presentation website, made by Jules SERRATO with wordpress.com. The official game site is accessible by clicking the "website" badge up there.)*
+*(This title is a link to our Wordpress presentation website, made by Jules SERRATO with wordpress.com. The official game site is accessible by clicking the "website" badge up there.)*
 
 ### FR : 
 Ceci est le repo. du projet **Arcade Park** de notre premier workshop de 2020 mais aussi de nos études supérieures.
