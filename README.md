@@ -23,6 +23,8 @@ Le groupe était composé de [Maxime BAUDOIN](https://github.com/max33530), [Que
 
 <br/>
 
+***
+
 ### EN :
 This is the repo. of the **Arcade Park** project of our first 2020 workshop but also of our graduate studies.
 
